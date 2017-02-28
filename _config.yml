@@ -1,1 +1,62 @@
-theme: jekyll-theme-dinky
+# Site #站点信息
+title: Hexo #博客标题
+subtitle:  #副标题
+description: Data Science #描述
+author: Yuan-Hsin Huang #作者
+language: en #语言
+timezone:  #时区
+
+# URL #链接格式
+url: http://yuanhsin8311.com #博客网址
+root: / #根目录
+permalink: :year/:month/:day/:title/ #文章的链接格式
+permalink_defaults:
+
+# Directory #目录
+source_dir: source #源文件
+public_dir: public #生成的文件
+tag_dir: tags #标签文件夹
+archive_dir: archives #归档文件夹
+category_dir: categories #分类文件夹
+code_dir: downloads/code #下载文件
+i18n_dir: :lang #国际化
+skip_render:
+
+# Writing #写作
+new_post_name: :title.md #文章标题
+default_layout: post #模板
+titlecase: false #标题是否换成小写
+external_link: true #是否在新页面打开链接
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+# Category & Tag #分类和标签
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date #时间日期格式
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination #分页
+per_page: 10 #每页文章数
+pagination_dir: page
+
+# Extensions #插件和主题
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: Tranquilpeak
+
+# Deployment #部署配置
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type:
