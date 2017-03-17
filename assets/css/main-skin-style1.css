@@ -1263,8 +1263,8 @@ textarea {
   margin-top: 49px;
 }
 .page-home__thumbnail {
-  max-width: 100% !important;
-  max-height: 100% !important;
+  max-width: 85% !important;
+  max-height: 85% !important;
   border: 9px solid #ffffff;
 }
 /*=== end Home ===*/
