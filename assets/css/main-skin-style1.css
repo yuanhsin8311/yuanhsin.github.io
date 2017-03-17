@@ -1256,15 +1256,15 @@ textarea {
   margin: 0;
   padding-bottom: 11px;
   color: #ffffff;
-  font: normal normal 1.8em/1em Novecento_wide_bold;
+  font: normal normal 2.2em/1.3em Novecento_wide_bold;
   text-transform: uppercase;
 }
 .page-home__sign {
   margin-top: 49px;
 }
 .page-home__thumbnail {
-  max-width: 85% !important;
-  max-height: 85% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
   border: 9px solid #ffffff;
 }
 /*=== end Home ===*/
